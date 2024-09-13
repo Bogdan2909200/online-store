@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин техники</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">TechStore</div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#laptops">Ноутбуки</a></li>
+                <li><a href="#smartphones">Смартфоны</a></li>
+                <li><a href="#accessories">Аксессуары</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Добро пожаловать в TechStore</h1>
+                <p>Ваши любимые гаджеты и электроника по лучшим ценам!</p>
+                <a href="#shop" class="btn-primary">Посмотреть товары</a>
+            </div>
+        </section>
+
+        <section id="shop" class="product-grid">
+            <h2>Популярные товары</h2>
+            <div class="products">
+                <div class="product-card">
+                    <img src="laptop.jpg" alt="Ноутбук">
+                    <div class="product-info">
+                        <h3>Ноутбук XYZ</h3>
+                        <p class="price">45,000₽</p>
+                        <a href="#" class="btn-secondary">Купить</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="smartphone.jpg" alt="Смартфон">
+                    <div class="product-info">
+                        <h3>Смартфон ABC</h3>
+                        <p class="price">30,000₽</p>
+                        <a href="#" class="btn-secondary">Купить</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="headphones.jpg" alt="Наушники">
+                    <div class="product-info">
+                        <h3>Наушники DEF</h3>
+                        <p class="price">7,500₽</p>
+                        <a href="#" class="btn-secondary">Купить</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="monitor.jpg" alt="Монитор">
+                    <div class="product-info">
+                        <h3>Монитор GHI</h3>
+                        <p class="price">20,000₽</p>
+                        <a href="#" class="btn-secondary">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 TechStore. Все права защищены.</p>
+        <ul class="footer-links">
+            <li><a href="#privacy">Политика конфиденциальности</a></li>
+            <li><a href="#terms">Условия использования</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
